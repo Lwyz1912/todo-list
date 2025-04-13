@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My ToDo List</title>
+        <meta name="description" content="my todo list">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body class="light">
+        <div class="container">
+            <button onclick="toggleTheme()" id="themeButton"><ion-icon name="moon-outline"></ion-icon></button>
+            <h1>My To Do List</h1>
+            <div class="inputcontainer">
+            <input type="text" id="myInput" placeholder="What needs to be done?">
+            <button onclick="newTask()"><ion-icon name="add"></ion-icon></button>
+            <button onclick="showCompleted()" id="showButton"><ion-icon name="eye-outline"></ion-icon></button>
+            <button onclick="clearList()" id="clearButton"><ion-icon name="trash-outline"></ion-icon></button>
+            </div>
+            <ul id="taskList">
+            </ul>
+        </div>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
