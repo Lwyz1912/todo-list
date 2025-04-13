@@ -1,18 +1,40 @@
-#To-Do List 📝
+# 📝 My To-Do List
 
-A to-do list made with pure HTML, CSS and JavaScript.
+A modern, responsive and themeable To-Do List built using HTML, CSS and JavaScript.
 
-## Features
-- 🌓 Light/dark theme toggle
-- 💾 LocalStorage to keep saved tasks
-- 🗑️ Delete task button
-- ✔️ Hide completed tasks
-- 🎯 Responsive and pleasant design
+This project was created as a personal challenge to improve my front-end development skills, focusing on clean design, functionality, and user experience.
 
-## Technologies
+---
+
+## 💡Features
+
+- 🌓 Toggle between Light and Dark themes
+- 🧠 Tasks are saved with LocalStorage
+- ✏️ Mark tasks as completed
+- ❌ Remove individual tasks or clear all
+- 👁️ Hide and show completed tasks
+- 📱 Fully responsive layout
+
+---
+
+## 🖼️ Preview
+
+### ☀️ Light Mode
+![Light Mode](./light.png)
+
+### 🌙 Dark Mode
+![Dark Mode](./dark.png)
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Click here to try it now](https://lwyz1912.github.io/todo-list/)
+
+---
+
+## 🛠️ Technologies Used
+
 - HTML5
-- CSS3 (with variables and flexbox)
-- Pure JavaScript
-
-## View online
-[🔗 Click here to access](https://lwyz1912.github.io/todo-list/)
+- CSS3
+- JavaScript
